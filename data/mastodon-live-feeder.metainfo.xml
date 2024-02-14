@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.kristof_houwen.mastodon_live_feed</id>
+  
+  <name>Mastodon Live Feeder</name>
+  <summary>Follow a public live feed on Mastodon</summary>
+  
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  
+  <description>
+    <p>
+      Follow a public live feed on Mastodon
+    </p>
+  </description>
+  
+  <releases>
+      <release version="0.0.1" date="2024-02-14">
+        <description>
+          <p>Initial release, includes features such as:</p>
+          <ul>
+            <li>Application can be launched</li>
+          </ul>
+        </description>
+      </release>
+    </releases>
+  
+  <launchable type="desktop-id">mastodon-live-feeder.desktop</launchable>
+</component>

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Mastodon Live Feeder
+Comment=Follow a public live feed on Mastodon
+Categories=Network;Amusement;
+
+Icon=mastodon_live_feeder
+Exec=com.github.kristof-houwen.myapp
+Terminal=false
