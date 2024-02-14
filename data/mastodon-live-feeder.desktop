@@ -4,8 +4,8 @@ Type=Application
 
 Name=Mastodon Live Feeder
 Comment=Follow a public live feed on Mastodon
-Categories=Network;Amusement;
+Categories=Network;Internet;
 
-Icon=mastodon_live_feeder
-Exec=com.github.kristof-houwen.myapp
+Icon=com.github.kristof-houwen.mastodon-live-feed
+Exec=com.github.kristof-houwen.mastodon-live-feed
 Terminal=false

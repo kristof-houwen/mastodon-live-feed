@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.kristof_houwen.mastodon_live_feed</id>
+  <id>com.github.kristof-houwen.mastodon-live-feed</id>
   
   <name>Mastodon Live Feeder</name>
   <summary>Follow a public live feed on Mastodon</summary>
@@ -25,5 +25,5 @@
       </release>
     </releases>
   
-  <launchable type="desktop-id">mastodon-live-feeder.desktop</launchable>
+  <launchable type="desktop-id">com.github.kristof-houwen.mastodon-live-feed.desktop</launchable>
 </component>
