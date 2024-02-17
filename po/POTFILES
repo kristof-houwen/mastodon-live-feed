@@ -1,0 +1,3 @@
+src/Application.vala
+data/mastodon-live-feeder.desktop.in
+data/mastodon-live-feeder.metainfo.xml.in

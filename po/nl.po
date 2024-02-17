@@ -1,0 +1,26 @@
+#: src/Application.vala:18 data/mastodon-live-feeder.desktop.in:6
+#: data/mastodon-live-feeder.metainfo.xml.in:5
+msgid "Mastodon Live Feeder"
+msgstr "Mastodon Live Feeder"
+
+#: src/Application.vala:21
+msgid "Click me!"
+msgstr "Klik op mij!"
+
+#: src/Application.vala:29
+msgid "Hello World"
+msgstr "Dag wereld"
+
+#: data/mastodon-live-feeder.desktop.in:7
+#: data/mastodon-live-feeder.metainfo.xml.in:6
+#: data/mastodon-live-feeder.metainfo.xml.in:12
+msgid "Follow a public live feed on Mastodon"
+msgstr "Volg een public Live feed op Mastodon"
+
+#: data/mastodon-live-feeder.metainfo.xml.in:20
+msgid "Initial release, includes features such as:"
+msgstr "Eerste release, bevat features als:"
+
+#: data/mastodon-live-feeder.metainfo.xml.in:22
+msgid "Application can be launched"
+msgstr "App kan worden opgestart"

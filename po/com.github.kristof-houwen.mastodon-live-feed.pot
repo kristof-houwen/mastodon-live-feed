@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.kristof-houwen.mastodon-live-feed package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.kristof-houwen.mastodon-live-feed\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-17 11:37+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Application.vala:18 data/mastodon-live-feeder.desktop.in:6
+#: data/mastodon-live-feeder.metainfo.xml.in:5
+msgid "Mastodon Live Feeder"
+msgstr ""
+
+#: src/Application.vala:21
+msgid "Click me!"
+msgstr ""
+
+#: src/Application.vala:29
+msgid "Hello World"
+msgstr ""
+
+#: data/mastodon-live-feeder.desktop.in:7
+#: data/mastodon-live-feeder.metainfo.xml.in:6
+#: data/mastodon-live-feeder.metainfo.xml.in:12
+msgid "Follow a public live feed on Mastodon"
+msgstr ""
+
+#: data/mastodon-live-feeder.metainfo.xml.in:20
+msgid "Initial release, includes features such as:"
+msgstr ""
+
+#: data/mastodon-live-feeder.metainfo.xml.in:22
+msgid "Application can be launched"
+msgstr ""
