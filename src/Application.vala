@@ -18,19 +18,25 @@ public class MyApp : Gtk.Application {
             title = _("Mastodon Live Feeder")
         };
         
-        var btn_test = new Gtk.Button.with_label(_("Click me!")) {
-            margin_top = 12,
-            margin_bottom = 12,
-            margin_start = 12,
-            margin_end = 12
+        var bkg_grid = new Gtk.Grid(){
+            column_spacing = 6,
+            row_spacing = 6
         };
         
-        btn_test.clicked.connect(() => {
-            btn_test.label = _("Hello World");
-            btn_test.sensitive = false;
-        });
+        var lbl_title = new Gtk.Label(_("title"));
+        var lbl_tag = new Gtk.Label(_("#Tag(s): "));
+        var txt_tag = new Gtk.Entry();
+        var lbl_feed = new Gtk.Label("FEED comes HERE");
+        var btn_refresh = new Gtk.Button.from_icon_name("view-refresh");
         
-        main_window.child = btn_test;
+        bkg_grid.attach(lbl_title, 1,1, 4, 1);
+        bkg_grid.attach(lbl_tag, 1, 2, 1, 1);
+        bkg_grid.attach_next_to (lbl_tag, txt_tag, Gtk.PositionType.RIGHT, 2, 1);
+        bkg_grid.attach(lbl_feed, 1,3,4, 2);
+        bkg_grid.attach(btn_refresh, 5, 5,1, 1);
+        
+        
+        main_window.child = bkg_grid;
         main_window.present();
     }
     
