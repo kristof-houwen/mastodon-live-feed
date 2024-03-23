@@ -13,6 +13,10 @@ executable(
     'src' / 'Application.vala',
     dependencies: [
         dependency('gtk4')
+        ,dependency('webkitgtk-6.0')
+        ,dependency('json-glib-1.0')
+        ,dependency('libsoup-3.0')
+        ,dependency('log4vala-0.2')
     ],
     install: true
 )

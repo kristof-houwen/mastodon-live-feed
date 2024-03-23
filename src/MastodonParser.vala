@@ -1,17 +1,3 @@
-public class MastodonMsgContent : Object {
-
-    public string uri {get; set;}
-    public string content {get; set;}
-    
-    public void showcli(){
-        print ("================================================================================\n\n");
-        print ("uri ==  %s \n", this.uri);
-        print ("content ==  %s \n", this.content);
-        print ("================================================================================\n\n");
-    }
-    
-}
-
 public class MastodonParser : Object {
     
     public string mastodonApiUrl {get; set;}

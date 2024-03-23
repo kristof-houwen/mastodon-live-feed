@@ -20,21 +20,31 @@ public class MyApp : Gtk.Application {
         
         var bkg_grid = new Gtk.Grid(){
             column_spacing = 6,
-            row_spacing = 6
+            row_spacing = 6,
         };
+        
         
         var lbl_title = new Gtk.Label(_("title"));
         var lbl_tag = new Gtk.Label(_("#Tag(s): "));
         var txt_tag = new Gtk.Entry();
-        var lbl_feed = new Gtk.Label("FEED comes HERE");
+        var feed = new WebKit.WebView();
         var btn_refresh = new Gtk.Button.from_icon_name("view-refresh");
         
-        bkg_grid.attach(lbl_title, 1,1, 4, 1);
-        bkg_grid.attach(lbl_tag, 1, 2, 1, 1);
-        bkg_grid.attach_next_to (lbl_tag, txt_tag, Gtk.PositionType.RIGHT, 2, 1);
-        bkg_grid.attach(lbl_feed, 1,3,4, 2);
-        bkg_grid.attach(btn_refresh, 5, 5,1, 1);
+        feed.set_hexpand(true);
+        feed.set_halign(Gtk.Align.FILL);
+        feed.set_vexpand(true);
+        feed.set_valign(Gtk.Align.FILL);
         
+        bkg_grid.attach(lbl_title, 0,0, 6, 1);
+        bkg_grid.attach(lbl_tag, 0, 1, 1, 1);
+        //bkg_grid.attach_next_to (lbl_tag, txt_tag, Gtk.PositionType.RIGHT, 4, 1);
+        bkg_grid.attach(feed, 0,2,6, 3);
+        bkg_grid.attach(btn_refresh, 5, 5,1, 1);
+
+        
+         btn_refresh.clicked.connect (() => {
+			feed.load_uri("https://elementary.io/en/");
+		});
         
         main_window.child = bkg_grid;
         main_window.present();
